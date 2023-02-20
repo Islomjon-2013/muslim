@@ -1,0 +1,41 @@
+.card__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards {
+  margin: 5px;
+  width: 250px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 10px 100px 10px rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  border: none;
+}
+.cards h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  color: #ffc700;
+  z-index: 999;
+  text-align: center;
+  margin: 10px;
+}
+.cards h5 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  text-align: center;
+  color: #ffffff;
+}
+.cards img {
+  width: 230px;
+  height: 230px;
+}

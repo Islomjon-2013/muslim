@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./assets/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

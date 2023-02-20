@@ -1,0 +1,98 @@
+.header__title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  color: #ffffff;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+span {
+  width: 1000px;
+  display: inline-block;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-right: 80px;
+}
+.select {
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+}
+.option {
+  text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.checbox {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+  text-align: center;
+}
+.header__time {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.header__time span {
+  color: orange;
+  display: inline;
+  border: none;
+}
+.form__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__box img {
+  margin-right: 20px;
+}
+.form__box form input {
+  margin-right: 20px;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.time h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffc700;
+  margin-right: 10px;
+}
