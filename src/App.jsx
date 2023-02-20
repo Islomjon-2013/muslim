@@ -21,11 +21,13 @@ const App = () => {
       });
   }, [text]);
   return (
-    <div>
+    <div className="body">
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col header__inner">
             <h1 className="header__title">Prayer times</h1>
+          </div>
+          <div className="header__box-1">
             <span className="span"></span>
 
             <div className="checbox">
@@ -60,7 +62,7 @@ const App = () => {
                 <img src={IMG} alt="" />
                 <div className="time">
                   {/* <h3>{time?.date}</h3> */}
-                  <h4 className="text-warning">{date}</h4>
+                  <h4 className="text-warning ">{date}</h4>
                 </div>
               </div>
             </div>

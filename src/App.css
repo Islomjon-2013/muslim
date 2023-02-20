@@ -96,3 +96,28 @@ label {
   color: #ffc700;
   margin-right: 10px;
 }
+
+@media (max-width: 767.98px) {
+  .header__inner {
+    background-color: #023926;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .body {
+    background-image: url(./assets/body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .span {
+    max-width: 290px;
+    height: 2px;
+  }
+  .header__box-1 {
+    max-width: 355px;
+
+    background: #023926;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+}
